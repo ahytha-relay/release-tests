@@ -1,3 +1,15 @@
+# v0.1.0 (Tue Jun 22 2021)
+
+#### 🚀 Enhancement
+
+- Revert "Updated Readme" [#5](https://github.com/ahytha-relay/release-tests/pull/5) ([@ahytha-relay](https://github.com/ahytha-relay))
+
+#### Authors: 1
+
+- [@ahytha-relay](https://github.com/ahytha-relay)
+
+---
+
 # v0.0.5 (Tue Jun 22 2021)
 
 ### Release Notes
