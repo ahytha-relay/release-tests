@@ -1,3 +1,23 @@
+# v0.0.3 (Tue Jun 22 2021)
+
+### Release Notes
+
+#### PR to test multiple commits ([#2](https://github.com/ahytha-relay/release-tests/pull/2))
+
+Updated the PR template to take advantage of release notes and added to the readme
+
+---
+
+#### 🐛 Bug Fix
+
+- PR to test multiple commits [#2](https://github.com/ahytha-relay/release-tests/pull/2) ([@ahytha-relay](https://github.com/ahytha-relay))
+
+#### Authors: 1
+
+- [@ahytha-relay](https://github.com/ahytha-relay)
+
+---
+
 # v0.0.2 (Tue Jun 22 2021)
 
 #### 🐛 Bug Fix
