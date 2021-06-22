@@ -4,7 +4,7 @@
   ],
   "owner": "ahytha-relay",
   "repo": "release-tests",
-  "name": "ahytha-relay",
+  "name": "shipit",
   "email": "ahytha@relaynetwork.com",
-  "versionBranches": "RELEASE-"
+  "prereleaseBranches": ["dev", "qa", "staging"]
 }
