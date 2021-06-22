@@ -1,0 +1,9 @@
+{
+  "plugins": [
+    "git-tag"
+  ],
+  "owner": "ahytha-relay",
+  "repo": "release-tests",
+  "name": "ahytha-relay",
+  "email": "ahytha@relaynetwork.com"
+}
