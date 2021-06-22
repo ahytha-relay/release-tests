@@ -1,3 +1,15 @@
+# v1.0.1 (Tue Jun 22 2021)
+
+#### 🐛 Bug Fix
+
+- added prerelease branches [#7](https://github.com/ahytha-relay/release-tests/pull/7) ([@ahytha-relay](https://github.com/ahytha-relay))
+
+#### Authors: 1
+
+- [@ahytha-relay](https://github.com/ahytha-relay)
+
+---
+
 # v1.0.0 (Tue Jun 22 2021)
 
 ### Release Notes
