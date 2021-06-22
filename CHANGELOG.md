@@ -1,3 +1,25 @@
+# v1.0.0 (Tue Jun 22 2021)
+
+### Release Notes
+
+#### updated readme ([#6](https://github.com/ahytha-relay/release-tests/pull/6))
+
+Link To Ticket(s)
+
+What is this PR attempting to do?
+
+---
+
+#### 💥 Breaking Change
+
+- updated readme [#6](https://github.com/ahytha-relay/release-tests/pull/6) ([@ahytha-relay](https://github.com/ahytha-relay))
+
+#### Authors: 1
+
+- [@ahytha-relay](https://github.com/ahytha-relay)
+
+---
+
 # v0.1.0 (Tue Jun 22 2021)
 
 #### 🚀 Enhancement
