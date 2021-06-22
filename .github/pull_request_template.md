@@ -1,16 +1,16 @@
-## Description
+## Release Notes
 
 Link To Ticket(s)
 
 What is this PR attempting to do?
 
-## Changes
-
-List Code Changes
-
 ## Features
 
 List new features this service provides
+
+## Changes
+
+List Code Changes
 
 ## Dependencies
 
