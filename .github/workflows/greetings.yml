@@ -35,5 +35,5 @@ jobs:
       env:
         GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
       run: |
-        npm install
-        npx auto shipit -vv
+        npm ci
+        npx auto shipit -v
