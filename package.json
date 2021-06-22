@@ -1,0 +1,24 @@
+{
+  "name": "release-tests",
+  "version": "1.0.0",
+  "description": "a repository for testing ideas for release processes",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@auto-it/git-tag": "^10.29.3",
+    "auto": "^10.29.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahytha-relay/release-tests.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ahytha-relay/release-tests/issues"
+  },
+  "homepage": "https://github.com/ahytha-relay/release-tests#readme"
+}
