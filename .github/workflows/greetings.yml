@@ -36,4 +36,4 @@ jobs:
         GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
       run: |
         npm ci
-        npx auto shipit -v
+        npx auto shipit
