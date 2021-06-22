@@ -1,3 +1,23 @@
+# v0.0.5 (Tue Jun 22 2021)
+
+### Release Notes
+
+#### Updated Readme ([#4](https://github.com/ahytha-relay/release-tests/pull/4))
+
+None
+
+---
+
+#### 🐛 Bug Fix
+
+- Updated Readme [#4](https://github.com/ahytha-relay/release-tests/pull/4) ([@ahytha-relay](https://github.com/ahytha-relay))
+
+#### Authors: 1
+
+- [@ahytha-relay](https://github.com/ahytha-relay)
+
+---
+
 # v0.0.4 (Tue Jun 22 2021)
 
 ### Release Notes
