@@ -1,3 +1,15 @@
+# v0.0.2 (Tue Jun 22 2021)
+
+#### 🐛 Bug Fix
+
+- reduced auto shipit logging [#1](https://github.com/ahytha-relay/release-tests/pull/1) ([@ahytha-relay](https://github.com/ahytha-relay))
+
+#### Authors: 1
+
+- [@ahytha-relay](https://github.com/ahytha-relay)
+
+---
+
 # v0.0.1 (Tue Jun 22 2021)
 
 #### ⚠️ Pushed to `main`
