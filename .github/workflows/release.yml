@@ -38,15 +38,20 @@ jobs:
       env:
         GH_TOKEN: ${{secrets.GITHUB_TOKEN}}
       run: npx auto changelog
+      
+    - name: Bump version
+      env:
+        GH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+      run: |
+        BUMP=$(npx auto version)
+        export TAG=$(npm version $BUMP -m "Released version %s on $(date)")
+        echo "::set-env name=TAG::$TAG"
+      
 
     - name: Create release branch
       env:
         GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
       run: |
-        BUMP=$(npx auto version)
-        echo "Bumping version by" $BUMP
-        TAG=$(npm version $BUMP -m "Released version %s on $(date)")
-        echo "Set version and tag"
-        BRANCH=release/$(date '+%Y-%m-%d')-$TAG
+        export BRANCH=release/$(date '+%Y-%m-%d')-$TAG
         echo "Branch is $BRANCH"
         git push --atomic origin $BRANCH $TAG
