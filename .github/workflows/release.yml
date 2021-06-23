@@ -48,5 +48,6 @@ jobs:
         export TAG=$(npm version $BUMP -m "Released version %s on $(date)")
         export BRANCH=release/$(date '+%Y-%m-%d')-$TAG
         echo "Branch is $BRANCH"
+        git push --atomic origin main
         git checkout -b $BRANCH
         git push --atomic origin $BRANCH $TAG
