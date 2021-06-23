@@ -42,16 +42,10 @@ jobs:
     - name: Bump version
       env:
         GH_TOKEN: ${{secrets.GITHUB_TOKEN}}
-      run: |
-        BUMP=$(npx auto version)
-        export TAG=$(npm version $BUMP -m "Released version %s on $(date)")
-        echo "::set-env name=TAG::$TAG"
-      
-
-    - name: Create release branch
-      env:
         GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
       run: |
+        export BUMP=$(npx auto version)
+        export TAG=$(npm version $BUMP -m "Released version %s on $(date)")
         export BRANCH=release/$(date '+%Y-%m-%d')-$TAG
         echo "Branch is $BRANCH"
         git push --atomic origin $BRANCH $TAG
