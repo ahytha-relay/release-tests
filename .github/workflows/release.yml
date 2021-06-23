@@ -12,6 +12,9 @@ jobs:
     - name: Prepare Repository
       run: git fetch --unshallow --tags
       
+    - name: Unset header
+      run: git config --local --unset http.https://github.com/.extraheader
+      
     - name: Use Nodejs 16.x
       uses: actions/setup-node@v1
       with:
