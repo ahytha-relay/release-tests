@@ -34,7 +34,7 @@ jobs:
       env:
         GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
       run: |
-        TAG=$(npm version $(auto version) -m "Released version %s on $(date)")
+        TAG=$(npm version $(npx auto version) -m "Released version %s on $(date)")
         BRANCH=release/$(date '+%Y-%m-%d')-$TAG
         git checkout -b $BRANCH
         git push --set-upstream origin/$BRANCH
