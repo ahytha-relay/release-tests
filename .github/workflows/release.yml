@@ -51,3 +51,8 @@ jobs:
         git push --atomic origin main $TAG
         git checkout -b $BRANCH
         git push --atomic origin $BRANCH
+        
+    - name: Create release
+      env:
+        GH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+      run: npx auto release
