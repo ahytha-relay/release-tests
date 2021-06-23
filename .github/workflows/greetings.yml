@@ -1,15 +1,17 @@
 name: Release
 
 on: 
-  push:
-    branches:
-    - main
+  workflow_dispatch:
+    inputs:
+      Type:
+        description: Release Type (major, minor, or patch)
+        required: true
+        default: patch
 
 jobs:
   release:
     name: Create release version
     runs-on: ubuntu-latest
-    if: "!contains(github.event.head_commit.message, 'ci skip') && !contains(github.event.head_commit.message, 'skip ci')"
     steps:
     - uses: actions/checkout@v2.3.4
     
@@ -31,9 +33,19 @@ jobs:
         key: npm-deps-${{hashFiles('package-lock.json')}}
         restore-keys: npm-deps-${{hashFiles('package-lock.json')}}
         
-    - name: Create Release
+    - name: Initialize Repo
+      run: npm install --no-save auto @auto-it/git-tag @auto-it/jira
+
+    - name: Create release branch
       env:
         GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
       run: |
-        npm ci
-        npx auto shipit
+        TAG=$(npm version $(auto version) -m "Released version %s on $(date)")
+        BRANCH=release/$(date '+%Y-%m-%d')-$TAG
+        git checkout -b BRANCH
+        git push --set-upstream origin/$BRANCH
+        npx auto changelog
+        git push --atomic origin $BRANCH $TAG
+        git checkout main
+        git merge BRANCH
+        git push origin main
