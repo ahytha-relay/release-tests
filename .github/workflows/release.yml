@@ -43,4 +43,4 @@ jobs:
         echo "Set version and tag"
         BRANCH=release/$(date '+%Y-%m-%d')-$TAG
         echo "Branch is $BRANCH"
-        git push --follow-tags --set-upstream origin $BRANCH
+        git push --follow-tags -u origin $BRANCH
