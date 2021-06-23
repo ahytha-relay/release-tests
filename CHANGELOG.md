@@ -2,6 +2,80 @@
 
 ### Release Notes
 
+#### Update release.yml ([#12](https://github.com/ahytha-relay/release-tests/pull/12))
+
+Link To Ticket(s)
+
+What is this PR attempting to do?
+
+#### Dummy PR ([#11](https://github.com/ahytha-relay/release-tests/pull/11))
+
+Nope
+
+#### DV-1 ([#10](https://github.com/ahytha-relay/release-tests/pull/10))
+
+Updated readme to reflect changes
+
+#### DV-7379: This is a demo Ticket/PR ([#9](https://github.com/ahytha-relay/release-tests/pull/9))
+
+Made some small changes to demonstrate how changelogs are built
+
+#### DV-7034: Testing Jira integration ([#8](https://github.com/ahytha-relay/release-tests/pull/8))
+
+https://rn-jira.atlassian.net/browse/DV-7034
+
+This PR has nothing to do with the above ticket, this is just a test.
+
+#### updated readme ([#6](https://github.com/ahytha-relay/release-tests/pull/6))
+
+Link To Ticket(s)
+
+What is this PR attempting to do?
+
+#### Updated Readme ([#4](https://github.com/ahytha-relay/release-tests/pull/4))
+
+None
+
+---
+
+#### 💥 Breaking Change
+
+- updated readme [#6](https://github.com/ahytha-relay/release-tests/pull/6) ([@ahytha-relay](https://github.com/ahytha-relay))
+
+#### 🚀 Enhancement
+
+- Dummy PR [#11](https://github.com/ahytha-relay/release-tests/pull/11) ([@ahytha-relay](https://github.com/ahytha-relay))
+- [DV-1](https://rn-jira.atlassian.net/DV-1) [#10](https://github.com/ahytha-relay/release-tests/pull/10) ([@ahytha-relay](https://github.com/ahytha-relay))
+- [DV-7379](https://rn-jira.atlassian.net/DV-7379): This is a demo Ticket/PR [#9](https://github.com/ahytha-relay/release-tests/pull/9) ([@ahytha-relay](https://github.com/ahytha-relay))
+- Revert "Updated Readme" [#5](https://github.com/ahytha-relay/release-tests/pull/5) ([@ahytha-relay](https://github.com/ahytha-relay))
+
+#### 🐛 Bug Fix
+
+- Update release.yml [#12](https://github.com/ahytha-relay/release-tests/pull/12) ([@ahytha-relay](https://github.com/ahytha-relay))
+- [DV-7034](https://rn-jira.atlassian.net/DV-7034): Testing Jira integration [#8](https://github.com/ahytha-relay/release-tests/pull/8) ([@ahytha-relay](https://github.com/ahytha-relay))
+- added prerelease branches [#7](https://github.com/ahytha-relay/release-tests/pull/7) ([@ahytha-relay](https://github.com/ahytha-relay))
+- Updated Readme [#4](https://github.com/ahytha-relay/release-tests/pull/4) ([@ahytha-relay](https://github.com/ahytha-relay))
+
+#### ⚠️ Pushed to `main`
+
+- Released version 3.0.0 on Wed Jun 23 18:43:32 UTC 2021 ([@ahytha-relay](https://github.com/ahytha-relay))
+- Released version 2.0.0 on Wed Jun 23 18:39:39 UTC 2021 ([@ahytha-relay](https://github.com/ahytha-relay))
+- Update release.yml ([@ahytha-relay](https://github.com/ahytha-relay))
+- Update and rename greetings.yml to release.yml ([@ahytha-relay](https://github.com/ahytha-relay))
+- Update greetings.yml ([@ahytha-relay](https://github.com/ahytha-relay))
+- small readme update ([@ahytha-relay](https://github.com/ahytha-relay))
+- added jira integration ([@ahytha-relay](https://github.com/ahytha-relay))
+
+#### Authors: 1
+
+- [@ahytha-relay](https://github.com/ahytha-relay)
+
+---
+
+# v1.0.0 (Wed Jun 23 2021)
+
+### Release Notes
+
 #### Dummy PR ([#11](https://github.com/ahytha-relay/release-tests/pull/11))
 
 Nope
