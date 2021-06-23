@@ -26,15 +26,23 @@ jobs:
         
     - name: Initialize Repo
       run: npm install --no-save auto @auto-it/git-tag @auto-it/jira
-
-    - name: Create release branch
+      
+    - name: Set up git user
       env:
         GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
       run: |
         git config --global user.email "ahytha@relaynetwork.com"
         git config --global user.name "Auto Release Agent"
-        npx auto changelog
-        echo "finished creating changelog"
+        
+    - name: Create changelog
+      env:
+        GH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+      run: npx auto changelog
+
+    - name: Create release branch
+      env:
+        GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+      run: |
         BUMP=$(npx auto version)
         echo "Bumping version by" $BUMP
         TAG=$(npm version $BUMP -m "Released version %s on $(date)")
