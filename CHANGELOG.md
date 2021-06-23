@@ -1,3 +1,15 @@
+# (Wed Jun 23 2021)
+
+#### ⚠️ Pushed to `main`
+
+- small readme update ([@ahytha-relay](https://github.com/ahytha-relay))
+
+#### Authors: 1
+
+- [@ahytha-relay](https://github.com/ahytha-relay)
+
+---
+
 # v1.0.4 (Wed Jun 23 2021)
 
 
