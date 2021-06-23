@@ -5,5 +5,3 @@ Auto is used to generate the CHANGELOG.md file, as well as the tags/releases in 
 It includes jira integration to link to any mentioned jira tickets.
 
 Auto is executed by a github workflow that executes any time new code is pushed to the main branch.
-
-extra line for commit!
