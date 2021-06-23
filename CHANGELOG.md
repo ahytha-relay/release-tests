@@ -1,5 +1,29 @@
 # (Wed Jun 23 2021)
 
+### Release Notes
+
+#### DV-7379: This is a demo Ticket/PR ([#9](https://github.com/ahytha-relay/release-tests/pull/9))
+
+Made some small changes to demonstrate how changelogs are built
+
+---
+
+#### 🚀 Enhancement
+
+- [DV-7379](https://rn-jira.atlassian.net/DV-7379): This is a demo Ticket/PR [#9](https://github.com/ahytha-relay/release-tests/pull/9) ([@ahytha-relay](https://github.com/ahytha-relay))
+
+#### ⚠️ Pushed to `main`
+
+- small readme update ([@ahytha-relay](https://github.com/ahytha-relay))
+
+#### Authors: 1
+
+- [@ahytha-relay](https://github.com/ahytha-relay)
+
+---
+
+# (Wed Jun 23 2021)
+
 #### ⚠️ Pushed to `main`
 
 - small readme update ([@ahytha-relay](https://github.com/ahytha-relay))
