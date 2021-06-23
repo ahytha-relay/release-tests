@@ -37,7 +37,10 @@ jobs:
         git config --global user.name "Auto Release Agent"
         npx auto changelog
         echo "finished creating changelog"
-        TAG=$(npm version $(npx auto version) -m "Released version %s on $(date)")
+        BUMP=$(npx auto version)
+        echo "Bumping version by" $BUMP
+        TAG=$(npm version $BUMP -m "Released version %s on $(date)")
         echo "Set version and tag"
         BRANCH=release/$(date '+%Y-%m-%d')-$TAG
+        echo "Branch is $BRANCH"
         git push --follow-tags --set-upstream origin $BRANCH
