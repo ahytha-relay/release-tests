@@ -36,6 +36,8 @@ jobs:
       run: |
         TAG=$(npm version $(npx auto version) -m "Released version %s on $(date)")
         BRANCH=release/$(date '+%Y-%m-%d')-$TAG
+        git config --global user.email "ahytha@relaynetwork.com"
+        git config --global user.name "Auto Release Agent"
         git checkout -b $BRANCH
         git push --set-upstream origin/$BRANCH
         npx auto changelog
