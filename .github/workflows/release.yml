@@ -12,9 +12,6 @@ jobs:
     - name: Prepare Repository
       run: git fetch --unshallow --tags
       
-    - name: Unset header
-      run: git config --local --unset http.https://github.com/.extraheader
-      
     - name: Use Nodejs 16.x
       uses: actions/setup-node@v1
       with:
@@ -24,8 +21,8 @@ jobs:
       uses: actions/cache@v1
       with:
         path: node_modules
-        key: npm-deps-${{hashFiles('package-lock.json')}}
-        restore-keys: npm-deps-${{hashFiles('package-lock.json')}}
+        key: auto-deps
+        restore-keys: auto-deps
         
     - name: Initialize Repo
       run: npm install --no-save auto @auto-it/git-tag @auto-it/jira
