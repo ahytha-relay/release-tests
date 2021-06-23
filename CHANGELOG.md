@@ -1,3 +1,23 @@
+# v4.0.1 (Wed Jun 23 2021)
+
+### Release Notes
+
+#### Update release.yml ([#13](https://github.com/ahytha-relay/release-tests/pull/13))
+
+Added release creation
+
+---
+
+#### 🐛 Bug Fix
+
+- Update release.yml [#13](https://github.com/ahytha-relay/release-tests/pull/13) ([@ahytha-relay](https://github.com/ahytha-relay))
+
+#### Authors: 1
+
+- [@ahytha-relay](https://github.com/ahytha-relay)
+
+---
+
 # v1.0.0 (Wed Jun 23 2021)
 
 ### Release Notes
