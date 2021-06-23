@@ -1,3 +1,44 @@
+# v1.0.0 (Tue Jun 22 2021)
+
+### Release Notes
+
+#### DV-7034: Testing Jira integration ([#8](https://github.com/ahytha-relay/release-tests/pull/8))
+
+https://rn-jira.atlassian.net/browse/DV-7034
+
+This PR has nothing to do with the above ticket, this is just a test.
+
+#### updated readme ([#6](https://github.com/ahytha-relay/release-tests/pull/6))
+
+Link To Ticket(s)
+
+What is this PR attempting to do?
+
+---
+
+#### 💥 Breaking Change
+
+- updated readme [#6](https://github.com/ahytha-relay/release-tests/pull/6) ([@ahytha-relay](https://github.com/ahytha-relay))
+
+#### 🚀 Enhancement
+
+- Revert "Updated Readme" [#5](https://github.com/ahytha-relay/release-tests/pull/5) ([@ahytha-relay](https://github.com/ahytha-relay))
+
+#### 🐛 Bug Fix
+
+- [DV-7034](https://rn-jira.atlassian.net/DV-7034): Testing Jira integration [#8](https://github.com/ahytha-relay/release-tests/pull/8) ([@ahytha-relay](https://github.com/ahytha-relay))
+- added prerelease branches [#7](https://github.com/ahytha-relay/release-tests/pull/7) ([@ahytha-relay](https://github.com/ahytha-relay))
+
+#### ⚠️ Pushed to `main`
+
+- added jira integration ([@ahytha-relay](https://github.com/ahytha-relay))
+
+#### Authors: 1
+
+- [@ahytha-relay](https://github.com/ahytha-relay)
+
+---
+
 # v1.0.4 (Tue Jun 22 2021)
 
 
