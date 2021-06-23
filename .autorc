@@ -1,6 +1,7 @@
 {
   "plugins": [
-    "git-tag"
+    "git-tag",
+    ["jira", "https://rn-jira.atlassian.net"]
   ],
   "owner": "ahytha-relay",
   "repo": "release-tests",
