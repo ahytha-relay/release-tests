@@ -6,3 +6,6 @@ It includes jira integration to link to any mentioned jira tickets.
 The same workflow that generates changelogs also creates a new release branch.
 
 Auto is executed by a github workflow that executes on demand.
+
+
+
