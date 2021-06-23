@@ -1,6 +1,6 @@
 {
   "name": "release-tests",
-  "version": "4.0.0",
+  "version": "4.0.1",
   "description": "a repository for testing ideas for release processes",
   "main": "index.js",
   "dependencies": {},
