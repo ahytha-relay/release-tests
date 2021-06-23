@@ -1,3 +1,25 @@
+# v1.0.3 (Wed Jun 23 2021)
+
+### Release Notes
+
+#### DV-7034: Testing Jira integration ([#8](https://github.com/ahytha-relay/release-tests/pull/8))
+
+https://rn-jira.atlassian.net/browse/DV-7034
+
+This PR has nothing to do with the above ticket, this is just a test.
+
+---
+
+#### 🐛 Bug Fix
+
+- [DV-7034](https://rn-jira.atlassian.net/DV-7034): Testing Jira integration [#8](https://github.com/ahytha-relay/release-tests/pull/8) ([@ahytha-relay](https://github.com/ahytha-relay))
+
+#### Authors: 1
+
+- [@ahytha-relay](https://github.com/ahytha-relay)
+
+---
+
 # v1.0.2 (Wed Jun 23 2021)
 
 #### ⚠️ Pushed to `main`
