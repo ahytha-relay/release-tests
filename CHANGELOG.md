@@ -1,3 +1,16 @@
+# v4.1.4 (Fri Aug 06 2021)
+
+#### ⚠️ Pushed to `main`
+
+- Update deploy.yml ([@ahytha-relay](https://github.com/ahytha-relay))
+- Update release.yml ([@ahytha-relay](https://github.com/ahytha-relay))
+
+#### Authors: 1
+
+- [@ahytha-relay](https://github.com/ahytha-relay)
+
+---
+
 # v4.1.3 (Fri Aug 06 2021)
 
 #### ⚠️ Pushed to `main`
