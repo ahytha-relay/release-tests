@@ -3,7 +3,7 @@ name: Release
 on: workflow_dispatch
 
 jobs:
-  release:
+  cut-release:
     name: Create release version
     runs-on: ubuntu-latest
     steps:
@@ -56,3 +56,23 @@ jobs:
       env:
         GH_TOKEN: ${{secrets.GITHUB_TOKEN}}
       run: npx auto release
+      
+  deploy-dev:
+    name: Deploy to DEV
+    runs-on: ubuntu-latest
+    environment: 'dev'
+    steps:
+    - uses: actions/checkout@v2.3.4
+      with:
+        token: ${{secrets.GITHUB_TOKEN}}
+        fetch-depth: 0
+  deploy-qa:
+    name: Deploy to QA
+    runs-on: ubuntu-latest
+    environment: 'qa'
+    steps:
+    - uses: actions/checkout@v2.3.4
+      with:
+        token: ${{secrets.GITHUB_TOKEN}}
+        fetch-depth: 0
+  
