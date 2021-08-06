@@ -1,3 +1,25 @@
+# v4.1.2 (Fri Aug 06 2021)
+
+### Release Notes
+
+#### Update release.yml ([#16](https://github.com/ahytha-relay/release-tests/pull/16))
+
+Link To Ticket(s)
+
+What is this PR attempting to do?
+
+---
+
+#### 🐛 Bug Fix
+
+- Update release.yml [#16](https://github.com/ahytha-relay/release-tests/pull/16) ([@ahytha-relay](https://github.com/ahytha-relay))
+
+#### Authors: 1
+
+- [@ahytha-relay](https://github.com/ahytha-relay)
+
+---
+
 # v4.1.1 (Fri Aug 06 2021)
 
 ### Release Notes
