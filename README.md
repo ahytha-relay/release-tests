@@ -7,5 +7,5 @@ The same workflow that generates changelogs also creates a new release branch.
 
 Auto is executed by a github workflow that executes on demand.
 
-
+This is a small edit to demonstrate something
 
