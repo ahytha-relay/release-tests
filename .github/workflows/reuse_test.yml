@@ -1,0 +1,7 @@
+name: Testing Remote
+
+on: workflow_dispatch
+    
+jobs:
+   remote_job:
+    uses: ahytha-relay/webhook-event-generator/.github/workflows/reusable.yml
