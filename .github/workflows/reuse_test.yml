@@ -4,4 +4,4 @@ on: workflow_dispatch
     
 jobs:
    remote_job:
-    uses: ahytha-relay/webhook-event-generator/.github/workflows/reusable.yml@RELEASE-2023-07-11-01 
+    uses: ahytha-relay/webhook-event-generator/.github/workflows/service-release.yml@cc29c1c12dda56417dff38e3d164da41c0cfa478
